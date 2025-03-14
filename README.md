@@ -1,3 +1,3 @@
-# Image-Classifier-Using-Keras-and-TensorFlow-MNSIT-Dataset
+# Image-Classifier-Using-Keras-and-TensorFlow-MNIST-Dataset
 
-Image classifier of MNSIT Dataset using Keras and TensorFlow libraries of Python.
+Image classifier of MNIST Dataset using Keras and TensorFlow libraries of Python.
