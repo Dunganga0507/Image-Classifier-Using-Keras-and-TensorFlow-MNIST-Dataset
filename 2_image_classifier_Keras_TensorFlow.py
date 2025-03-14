@@ -55,8 +55,8 @@ print(f"Test Accuracy: {test_acc * 100:.2f}%")
 predictions = model.predict(test_images)
 print(f"Prediction for first test image: {np.argmax(predictions[0])}")
 
-
-plt.imshow(test_images[0].reshape(28,28), cmap='gray')
-plt.title(f"Predicted Label: {predictions[0].argmax()}")
+r = randint(0, 10000)
+plt.imshow(test_images[r].reshape(28,28), cmap='gray')
+plt.title(f"Predicted Label: {predictions[r].argmax()}")
 plt.show()
 
